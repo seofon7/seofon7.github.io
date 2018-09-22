@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://protracker.tk/</loc>
+  <lastmod>2018-08-15T21:38:29+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://protracker.tk/home.html</loc>
+  <lastmod>2018-08-15T20:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://protracker.tk/about.html</loc>
+  <lastmod>2018-08-15T20:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://protracker.tk/banana.html</loc>
+  <lastmod>2018-08-15T20:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://protracker.tk/blog.html</loc>
+  <lastmod>2018-08-15T21:22:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://protracker.tk/contact.html</loc>
+  <lastmod>2018-08-15T20:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://protracker.tk/donate.html</loc>
+  <lastmod>2018-08-15T20:42:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://protracker.tk/example-blog-post.html</loc>
+  <lastmod>2018-08-15T20:13:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

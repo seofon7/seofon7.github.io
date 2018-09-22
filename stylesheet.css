@@ -1,0 +1,97 @@
+body {
+	background-color: white;
+}
+
+h1, p, li, h2, figcaption, time {
+	color: black;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-right: 20px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a.link:hover, a.blog:hover {
+	text-decoration: underline solid;
+}
+
+a.link:link {
+	color: #0024d9;
+}
+
+a.link:visited {
+	color: #8800cc;
+}
+
+.right {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 25%;
+	height: 200px;
+	background-color: red;
+	border: 3px solid black;
+	color: yellow;
+	font-family: "Courier New", Courier, monospace;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+code {
+	background-color: lightgrey;
+}
+
+li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+}
+
+li a {
+	display: block;
+	width: 90px;
+	color: #000000;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: lightgrey;
+	color: white;
+}
+
+.active {
+	background-color: darkgrey;
+	color: white;
+}
+
+li {
+	float: left;
+}
+
+ul {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+main {
+	/*margin-right: 25%;
+	don't need this^ any more, but gonna leave in case I do for whatever reason*/
+	width: 75%;
+}
+
+.heading {
+	text-decoration: underline solid black;
+	color: black;
+}
+
+#asdf {
+	display: none;
+}
