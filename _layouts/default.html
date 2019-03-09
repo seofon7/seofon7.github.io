@@ -5,7 +5,11 @@
 	
 		<meta charset="UTF-8">
 		
-		<title>{{ page.title }}</title>
+		{% if page.title == "By Anders Meadwell" %}
+		<title>ProTracker.tk</title>
+		{% else %}
+		<title>{{ page.title }} | ProTracker.tk</title>
+		{% endif %}
 		
 		<meta name="google-site-verification" content="6R1p_42qJ1bZwnkrUvM1nuD7f7P7Ox7b-1m84ylgnPs" />
 		
@@ -20,17 +24,37 @@
 	<body>
 	
 		<header>
-			<h1><a href="/" class="heading">{{ page.title }}</a></h1>
-			<h2>By Anders Meadwell</h2>
+			<h1><a href="/" class="heading">ProTracker.tk</a></h1>
+			
+			{% if layout.page == "blog" %}
+			<h2>Blog</h2>
+			{% else %}
+			<h2>{{ page.title }}</h2>
+			{% endif %}
 			
 			<!-- navbar begins here -->
 			<nav>
 				<ul style="margin-right: 20px; margin-left: 20px; padding-right: 0px; padding-left: 0px;">
-					<li style="margin-right: 0px;"><a href="/">Home</a></li>
-					<li style="margin-left: 0px; margin-right: 0px;"><a href="/about">About</a></li>
-					<li style="margin-left: 0px; margin-right: 0px;"><a href="/blog">Blog</a></li>
-					<li style="margin-left: 0px; margin-right: 0px;"><a href="/contact">Contact</a></li>
-					<li style="margin-left: 0px;"><a href="/donate">Donate</a></li>
+					{% if page.title == "By Anders Meadwell" %}
+					<li style="margin-right: 0px;"><a href="/" class="active">Home</a></li>
+					{% else %}
+					<li style="margin-right: 0px;"><a href="/" class="nav">Home</a></li>
+					{% endif %}
+					{% if page.title == "About" %}
+					<li style="margin-left: 0px; margin-right: 0px;"><a href="/about" class="active">About</a></li>
+					{% else %}
+					<li style="margin-left: 0px; margin-right: 0px;"><a href="/about" class="nav">About</a></li>
+					{% endif %}
+					{% if page.title == "Blog" or layout.page == "blog" %}
+					<li style="margin-left: 0px; margin-right: 0px;"><a href="/blog" class="active">Blog</a></li>
+					{% else %}
+					<li style="margin-left: 0px; margin-right: 0px;"><a href="/blog" class="nav">Blog</a></li>
+					{% endif %}
+					{% if page.title == "Contact" %}
+					<li style="margin-left: 0px;"><a href="/contact" class="active">Contact</a></li>
+					{% else %}
+					<li style="margin-left: 0px;"><a href="/contact" class="nav">Contact</a></li>
+					{% endif %}
 					<!-- remember to add class "active" to current page on nav bar -->
 				</ul>
 			</nav>
