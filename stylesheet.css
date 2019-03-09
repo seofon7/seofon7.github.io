@@ -15,16 +15,25 @@ a {
 	color: black;
 }
 
-a.link:hover, a.blog:hover {
+a:hover, a.blog:hover {
 	text-decoration: underline solid;
 }
 
-a.link:link {
+a:link {
 	color: #0024d9;
 }
 
-a.link:visited {
+a:visited {
 	color: #8800cc;
+}
+
+a.blog:link, a.blog:visited, a.heading:link, a.heading:visited, a.nav:link, a.nav:visited {
+	color: black;
+}
+
+a.nav:hover {
+	color: white;
+	text-decoration: none;
 }
 
 .right {
