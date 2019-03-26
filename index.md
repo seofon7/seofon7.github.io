@@ -16,4 +16,4 @@ I also made this nifty Pokemon box list spreadsheet, I'll try to keep it semi-up
 
 While you're waiting, check out my SoundCloud playlist:
 
-<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/673562202&color=%234da3d4&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" style="margin-left: 20px;"></iframe>
+<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/732544614&color=%234da3d4&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" style="margin-left: 20px;"></iframe>
